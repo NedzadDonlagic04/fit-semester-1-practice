@@ -16,5 +16,11 @@ that the cpp file has your username at the top of the
 file commented. The file will be removed in case it
 does not properly solve the given problem.
 
+The generator.py file contains a python script that
+can be used to generate some boilerplate for creating
+problems, example usage via command line:
+
+> python3 generator.py example_problem_name
+
 Thanks to anyone willing to contribute and good luck
 practicing!
