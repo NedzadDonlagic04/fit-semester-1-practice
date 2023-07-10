@@ -1,2 +1,5 @@
 # exclude output file
 *.out
+
+# excluse workspace settings for VSCode
+.vscode
