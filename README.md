@@ -7,9 +7,9 @@ college.
 Folders inside this directory will have a name that
 associates itself with a given problem inside of it.
 
-Inside those folders is usually a README describing
-the problem and maybe an img folder to store the
-flowchart as a helper in solving the problem.
+Inside those folders is a README describing the problem 
+and maybe an img folder to store the flowchart as a 
+helper in solving the problem.
 
 When adding a solution to a problem it is mandatory
 that the cpp file has your username at the top of the
@@ -24,3 +24,8 @@ problems, example usage via command line:
 
 Thanks to anyone willing to contribute and good luck
 practicing!
+
+
+Order in which tasks were added:
+1. hello-world
+2. bakery-helper
