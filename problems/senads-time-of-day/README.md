@@ -19,10 +19,10 @@ output (for the sake of simplicity the output will
 just be a string):
 
 (Current Time In Hours) =   (Given Output)
-        23 -  5         =   Night Time
          6 -  9         =   Early Morning
         10 - 11         =   Late Morning
         12 - 13         =   Early Afternoon
         14 - 16         =   Afternoon
         17 - 19         =   Evening
         20 - 22         =   Late Evening 
+        23 -  5         =   Night Time
