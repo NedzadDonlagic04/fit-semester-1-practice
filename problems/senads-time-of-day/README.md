@@ -1,4 +1,4 @@
-# problems/senads-time-of-day
+# senads-time-of-day
 
 Senad, otherwise known as Seno amongst the people
 of his home town of "The Island" is the holder for
