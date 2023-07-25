@@ -31,3 +31,4 @@ Order in which tasks were added:
 2. bakery-helper
 3. senads-time-of-day
 4. bubble-sort
+5. insertion-sort
