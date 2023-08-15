@@ -4,7 +4,7 @@
 #include<string>
 #include<vector>
 
-// Making a namespace I don't have to repeat saying
+// Making a type alias so I don't have to repeat saying
 // std::chrono::system_clock twice
 using systemClock = std::chrono::system_clock;
 
