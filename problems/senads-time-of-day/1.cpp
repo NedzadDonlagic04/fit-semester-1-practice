@@ -17,7 +17,8 @@ using systemClock = std::chrono::system_clock;
 }
 
 [[nodiscard]] std::string getCurrentTimePeriod(int hours) {
-    std::vector<std::pair<int, std::string>> timePeriods = {
+    // constexpr here works only on cpp20 and up
+    const std::vector<std::pair<int, std::string>> timePeriods = {
         { 6, "Early Morning" },
         { 10, "Late Morning" },
         { 12, "Early Afternoon" },
