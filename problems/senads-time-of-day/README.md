@@ -19,6 +19,7 @@ output (for the sake of simplicity the output will
 just be a string):
 
 (Current Time In Hours) =   (Given Output)
+
          6 -  9         =   Early Morning
         10 - 11         =   Late Morning
         12 - 13         =   Early Afternoon
