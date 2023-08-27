@@ -5,7 +5,7 @@
 #include<numeric>
 #include<vector>
 
-std::vector<std::string_view>  getCurrentBonneyPosition(int time) {
+[[nodiscard]] std::vector<std::string_view>  getCurrentBonneyPosition(int time) {
     // Constant values used for calculation later on
     constexpr int CAMERA_COUNT { 5 };
     constexpr std::string_view CAMERA_NAMES[CAMERA_COUNT] = {"1B", "1C", "3", "2A", "2B"};
