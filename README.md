@@ -33,3 +33,4 @@ Order in which tasks were added:
 4. bubble-sort
 5. insertion-sort
 6. bonneys-movement
+7. selection-sort

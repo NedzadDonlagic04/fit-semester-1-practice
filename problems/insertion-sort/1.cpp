@@ -11,7 +11,7 @@ void insertionSort(std::vector<ctm::Employee> &employeeData) {
     }
 }
 
-void outputEmployeeData(const std::vector<ctm::Employee> &employeeData ,const std::string &text) {
+void outputEmployeeData(const std::vector<ctm::Employee> &employeeData, const std::string &text) {
     std::cout<<text;
 
     for(const auto &v : employeeData) std::cout<<v.formattedEmployeeInfo();
