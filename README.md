@@ -11,11 +11,6 @@ Inside those folders is a README describing the problem
 and maybe an img folder to store the flowchart as a 
 helper in solving the problem.
 
-When adding a solution to a problem it is mandatory
-that the cpp file has your username at the top of the
-file commented. The file will be removed in case it
-does not properly solve the given problem.
-
 The generator.py file contains a python script that
 can be used to generate some boilerplate for creating
 problems, example usage via command line:

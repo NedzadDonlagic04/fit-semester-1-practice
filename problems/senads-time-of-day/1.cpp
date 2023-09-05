@@ -1,4 +1,3 @@
-// Done by YourFBIAgent
 #include<iostream>
 #include<chrono>
 #include<string>

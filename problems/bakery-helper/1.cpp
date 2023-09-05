@@ -1,4 +1,3 @@
-// Done by YourFBIAgent
 #include<iostream>
 #include<string>
 #include<array>
