@@ -33,7 +33,7 @@
     */
     const int timeQuotient = time / totalTimeMoving;
 
-    time = time - totalTimeMoving * timeQuotient;
+    time %= totalTimeMoving;
 
     std::ptrdiff_t startIndex { 0 };
     std::ptrdiff_t endIndex { CAMERA_COUNT - 1 };
