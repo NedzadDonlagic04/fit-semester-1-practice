@@ -1,7 +1,8 @@
-#include<iostream>
+#include <iostream>
+#include "./includes/mergeSort.hpp"
 
-int main(int argv, char* argc[]) {
-    std::cout<<"Hello World!\n";
+int main() {
+    nonRecursiveMergeSort({1, 2, 3, 4});
 
     return 0;
 }
