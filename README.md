@@ -30,3 +30,4 @@ Order in which tasks were added:
 6. bonneys-movement
 7. selection-sort
 8. convert-to-binary
+9. merge-sort
