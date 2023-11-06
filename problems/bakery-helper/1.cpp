@@ -46,7 +46,7 @@ void handleInput(float &var, const std::string &inputText) {
 }
 
 int main(int argv, char* argc[]) {
-    std::array<std::string, 7> daysOfTheWeek = { 
+    constexpr std::array<std::string_view, 7> daysOfTheWeek = { 
         "Monday", 
         "Tuesday", 
         "Wednesday", 
