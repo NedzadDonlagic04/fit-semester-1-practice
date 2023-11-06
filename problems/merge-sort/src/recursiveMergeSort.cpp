@@ -14,15 +14,11 @@
       returnVec[leftIndex + rightIndex] = rightVec[rightIndex++];
   }
 
-  while (leftIndex != leftVec.size()) {
-      returnVec[leftIndex + rightIndex] = leftVec[leftIndex];
-      leftIndex++;
-  }
+  while (leftIndex != leftVec.size()) 
+    returnVec[leftIndex + rightIndex] = leftVec[leftIndex++];
 
-  while (rightIndex != rightVec.size()) {
-      returnVec[leftIndex + rightIndex] = rightVec[rightIndex];
-      rightIndex++;
-  }
+  while (rightIndex != rightVec.size())
+    returnVec[leftIndex + rightIndex] = rightVec[rightIndex++];
   
   return returnVec;
 }
